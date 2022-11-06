@@ -45,23 +45,7 @@ public class Tree {
             printSpaces((stars-3) / 2);
             printStars(3);
         }
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    
 }
