@@ -57,7 +57,17 @@ ________________________________________________________________________________
 										ES DESERIALIZZAZIONE
 --> 		RestTemplate restTemplate = new RestTemplate(); // ogGetto per deserializzare
 		Fox ris = restTemplate.getForObject( "https://randomfox.ca/floof/", Fox.class);     --> mi prende l'url del api e mi salva in oggetto gli atributi vhe voglio
---> integrazione  html e java per fetchare e visualizzare i dati  
+--> integrazione  html e java per fetchare e visualizzare i dati 
+
+______________________________________________________________________________________________________________________________________________________________
+
+Classe service --> serve a gestire il lavoro sporco. modo tale controller che rimane pulito 
+				RICORDA --> creare package service al interno es PersonaService 
+					----> @Service nella classe PersonaService 
+					----> @AutoWired nella classe Controller/RestController sopra l'oggetto PersonaService
+
+
+ ________________________________________________________________________________________________________________________________________________________________
 
 Risorse 
 
