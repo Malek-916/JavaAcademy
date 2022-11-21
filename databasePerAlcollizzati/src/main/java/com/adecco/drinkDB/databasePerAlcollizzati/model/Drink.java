@@ -13,13 +13,21 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 
-
+@Entity
+@Table(name="bevande")
 public class Drink {
 	
+	
+	@Id
 	private String idDrink;
+	
+	@Column(name="nome")
 	private String strDrink;
+	
+	@Column(name="istruzioni")
 	private String strInstructionsIT;
+	
+	@Column(name="url-immagine")
 	private String strDrinkThumb;
 	
-
 }
