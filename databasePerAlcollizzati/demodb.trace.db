@@ -1,0 +1,33 @@
+2022-11-21 21:42:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table bevande (id_drink varchar(255) not null, nome varchar(255), url[*]-immagine varchar(255), istruzioni varchar(255), primary key (id_drink))"; expected "IDENTITY, BIGSERIAL, SERIAL, data type"; SQL statement:
+create table bevande (id_drink varchar(255) not null, nome varchar(255), url-immagine varchar(255), istruzioni varchar(255), primary key (id_drink)) [42001-214]
+2022-11-21 21:47:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table bevande (id_drink varchar(255) not null, nome varchar(255), url[*]-immagine varchar(255), istruzioni varchar(255), primary key (id_drink))"; expected "IDENTITY, BIGSERIAL, SERIAL, data type"; SQL statement:
+create table bevande (id_drink varchar(255) not null, nome varchar(255), url-immagine varchar(255), istruzioni varchar(255), primary key (id_drink)) [42001-214]
+2022-11-21 21:47:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table bevande (id_drink varchar(255) not null, nome varchar(255), url[*]-immagine varchar(255), istruzioni varchar(255), primary key (id_drink))"; expected "IDENTITY, BIGSERIAL, SERIAL, data type"; SQL statement:
+create table bevande (id_drink varchar(255) not null, nome varchar(255), url-immagine varchar(255), istruzioni varchar(255), primary key (id_drink)) [42001-214]
+2022-11-21 21:47:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BEVANDE" not found (this database is empty); SQL statement:
+select drink0_.id_drink as id_drink1_0_0_, drink0_.nome as nome2_0_0_, drink0_.url-immagine as url3_0_0_, drink0_.istruzioni as istruzio4_0_0_ from bevande drink0_ where drink0_.id_drink=? [42104-214]
+2022-11-21 21:47:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BEVANDE" not found (this database is empty); SQL statement:
+select drink0_.id_drink as id_drink1_0_0_, drink0_.nome as nome2_0_0_, drink0_.url-immagine as url3_0_0_, drink0_.istruzioni as istruzio4_0_0_ from bevande drink0_ where drink0_.id_drink=? [42104-214]
+2022-11-21 21:48:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BEVANDE" not found (this database is empty); SQL statement:
+select drink0_.id_drink as id_drink1_0_0_, drink0_.nome as nome2_0_0_, drink0_.url-immagine as url3_0_0_, drink0_.istruzioni as istruzio4_0_0_ from bevande drink0_ where drink0_.id_drink=? [42104-214]
+2022-11-21 21:48:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table bevande (id_drink varchar(255) not null, nome varchar(255), url[*]-immagine varchar(255), istruzioni varchar(255), primary key (id_drink))"; expected "IDENTITY, BIGSERIAL, SERIAL, data type"; SQL statement:
+create table bevande (id_drink varchar(255) not null, nome varchar(255), url-immagine varchar(255), istruzioni varchar(255), primary key (id_drink)) [42001-214]
+2022-11-21 21:48:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table bevande (id_drink varchar(255) not null, nome varchar(255), url[*]-immagine varchar(255), istruzioni varchar(255), primary key (id_drink))"; expected "IDENTITY, BIGSERIAL, SERIAL, data type"; SQL statement:
+create table bevande (id_drink varchar(255) not null, nome varchar(255), url-immagine varchar(255), istruzioni varchar(255), primary key (id_drink)) [42001-214]
+2022-11-21 21:48:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BEVANDE" not found (this database is empty); SQL statement:
+select drink0_.id_drink as id_drink1_0_0_, drink0_.nome as nome2_0_0_, drink0_.url-immagine as url3_0_0_, drink0_.istruzioni as istruzio4_0_0_ from bevande drink0_ where drink0_.id_drink=? [42104-214]
+2022-11-21 21:54:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table bevande (id_drink varchar(255) not null, nome varchar(255), url[*]-immagine varchar(255), istruzioni varchar(255), primary key (id_drink))"; expected "IDENTITY, BIGSERIAL, SERIAL, data type"; SQL statement:
+create table bevande (id_drink varchar(255) not null, nome varchar(255), url-immagine varchar(255), istruzioni varchar(255), primary key (id_drink)) [42001-214]
+2022-11-21 21:54:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BEVANDE" not found (this database is empty); SQL statement:
+select count(*) as col_0_0_ from bevande drink0_ where drink0_.id_drink=? [42104-214]
