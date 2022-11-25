@@ -110,16 +110,13 @@ ________________________________________________________________________________
 
 Risorse 
 
---> www.primefaces.org/
---> mvnrepository.com/
---> start.spring.io/
---> getbootstrap.com
---> w3schools.com/
---> mdbootstrap.com/
---> ( libro abs java )  webéducation.com/wp-content/uploads/2018/09/Absolute-Java-6th-edition.pdf
---> ( lista api free  )github.com/public-apis/public-apis
---> ( pdf programmare con java )  s3.us-west-2.amazonaws.com/secure.notion-static.com/bb3b577f-b5b7-41b4-972c-ca20c67eacf2/Untitled.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221118T102645Z&X-Amz-Expires=86400&X-Amz-Signature=83e12ff788a372b438e506e506b639fdf78335bd7adc6e8037761c1e3be730ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Programmare%2520in%2520Java.pdf%22&x-id=GetObject
---> (per deseriallizzare al ingrosso da json a pojo) https://json2csharp.com/
--->
--->
--->
+	--> www.primefaces.org/
+	--> mvnrepository.com/
+	--> start.spring.io/
+	--> getbootstrap.com
+	--> w3schools.com/
+	--> mdbootstrap.com/
+	--> ( libro abs java )  webéducation.com/wp-content/uploads/2018/09/Absolute-Java-6th-edition.pdf
+	--> ( lista api free  )github.com/public-apis/public-apis
+	--> ( pdf programmare con java )  s3.us-west-2.amazonaws.com/secure.notion-static.com/bb3b577f-b5b7-41b4-972c-ca20c67eacf2/Untitled.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221118T102645Z&X-Amz-Expires=86400&X-Amz-Signature=83e12ff788a372b438e506e506b639fdf78335bd7adc6e8037761c1e3be730ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Programmare%2520in%2520Java.pdf%22&x-id=GetObject
+	--> (per deseriallizzare al ingrosso da json a pojo) https://json2csharp.com/
