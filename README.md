@@ -100,10 +100,23 @@ XXX.XXX/api/xxxx --> per chiedere dei parramenti in input dalla richiesta di get
 
 ---> XXX.XXX/api/xxxx ? parametro='numero' & parmatro2=9
 ________________________________________________________________________________________________________________________________________________________________
+Comandi Angular 
+
+Creare nuovo proj
+	ng new nome-proj
+
+Creare nuovo componente
+	ng g c nome-comp
+	ng genereate component nome-comp
 
 
-
-
+procedura : routing su angular 
+ - importare RouterModule in app.module.ts
+	- creare app.routes.ts --> importiamo Routes e i componenti creati
+	- nel app.module.ts mettere la funzione forRoot, RouterModule.forRoot(AppRoute)
+	- per navigare nella pagina html nel tag inserire routerLink=" ' [/rotta] ' "
+	- inoltre nel comp.html -->[rouoterLinkActiveOptions]="{ exact:true }"
+	- nel comp.html --> tra i tag <mian> mettere <Router-outlet><Router-outlet>
 ______________________________________________________________________________________________________________________________________________________________
 
 
@@ -121,3 +134,4 @@ Risorse
 	--> ( pdf programmare con java )  s3.us-west-2.amazonaws.com/secure.notion-static.com/bb3b577f-b5b7-41b4-972c-ca20c67eacf2/Untitled.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221118T102645Z&X-Amz-Expires=86400&X-Amz-Signature=83e12ff788a372b438e506e506b639fdf78335bd7adc6e8037761c1e3be730ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Programmare%2520in%2520Java.pdf%22&x-id=GetObject
 	--> (per deseriallizzare al ingrosso da json a pojo) https://json2csharp.com/
 	--> https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+	--> https://italiancoders.it/routing-delle-applicazioni-angular/#router-link
