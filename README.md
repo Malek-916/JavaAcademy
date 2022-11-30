@@ -103,11 +103,11 @@ ________________________________________________________________________________
 Comandi Angular 
 
 Creare nuovo proj
-	ng new nome-proj
+-> ng new nome-proj
 
 Creare nuovo componente
-	ng g c nome-comp
-	ng genereate component nome-comp
+-> ng g c nome-comp
+-> ng genereate component nome-comp
 
 
 procedura : routing su angular 
