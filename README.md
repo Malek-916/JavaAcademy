@@ -57,6 +57,11 @@ ________________________________________________________________________________
 --> come si fa un controller 
 - selezionare il pachage che ho creato --> 
 	creare un package dentro quello principale aggiungendo ".controller"
+	___________________________________________________________________________________________________
+	esportazione spring boot dal terminale nel workspace --> ./mvnw package clean oppure su windows mvnw package clean
+	-
+	-
+	- TO BE CONTINUED
 
 
 
