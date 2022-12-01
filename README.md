@@ -62,6 +62,10 @@ ________________________________________________________________________________
 	-
 	-
 	- TO BE CONTINUED
+	______________________________________________________________________________________________________
+		INTEGRAZIONE CON IL FRONTEND
+	- ricordarsi le annotazioni @CrossOrigin(origins="*")
+				     @RequestMapping("/api")
 
 
 
